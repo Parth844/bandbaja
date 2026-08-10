@@ -1,0 +1,180 @@
+.player {
+  width: 100%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* ── Header / wordmark ─────────────────────────────────────────────── */
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 16px;
+}
+
+.wordmark {
+  font-family: var(--mono);
+  font-size: 1.05rem;
+  font-weight: 500;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  margin: 0;
+  padding-left: 0.42em; /* optical balance for the tracking */
+}
+
+.links {
+  display: flex;
+  gap: 18px;
+}
+
+.link {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.link:hover {
+  color: var(--fg);
+  border-color: var(--fg);
+}
+
+/* ── Cover art ─────────────────────────────────────────────────────── */
+.cover {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  border: 1px solid var(--line);
+  background: #111;
+}
+
+/* ── Track meta ────────────────────────────────────────────────────── */
+.meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.artist {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ── Controls ──────────────────────────────────────────────────────── */
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.playButton {
+  flex: 0 0 auto;
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  color: var(--bg);
+  background: var(--fg);
+  border: 1px solid var(--fg);
+  border-radius: 0;
+  cursor: pointer;
+  transition: opacity 0.15s ease, transform 0.05s ease;
+}
+
+.playButton:hover:not(:disabled) {
+  opacity: 0.85;
+}
+
+.playButton:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.playButton:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.scrubber {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Range input styled as a thin brutalist bar with a hard fill. */
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    var(--fg) 0%,
+    var(--fg) var(--progress, 0%),
+    var(--line) var(--progress, 0%),
+    var(--line) 100%
+  );
+  cursor: pointer;
+  margin: 0;
+}
+
+.range:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 14px;
+  background: var(--fg);
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+  width: 10px;
+  height: 14px;
+  background: var(--fg);
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.range:focus-visible {
+  outline: 1px solid var(--fg);
+  outline-offset: 6px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
