@@ -1,0 +1,272 @@
+/* ── Full-bleed stage ──────────────────────────────────────────────── */
+.stage {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  /* Fallback / base: a cave-lagoon gradient that matches the artwork,
+     shown until public/background.jpg is added (or if it fails to load). */
+  background:
+    radial-gradient(58% 42% at 55% 24%, rgba(233, 220, 143, 0.22), transparent 62%),
+    radial-gradient(130% 95% at 50% 28%, #12463f 0%, #0a262a 52%, #06161a 100%);
+}
+
+.bg {
+  position: absolute;
+  inset: 0;
+  /* Drop your artwork at public/background.jpg — it fills the screen.
+     If the file is absent the layer is transparent and the stage gradient
+     above shows through, so nothing ever looks broken. */
+  background-image: url("/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.38) 0%,
+    rgba(0, 0, 0, 0) 26%,
+    rgba(0, 0, 0, 0) 52%,
+    rgba(0, 0, 0, 0.58) 100%
+  );
+}
+
+/* ── Top brand row ─────────────────────────────────────────────────── */
+.top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 22px 24px;
+  color: #fff;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  text-shadow: 0 1px 16px rgba(0, 0, 0, 0.55);
+}
+
+.wordmark {
+  font-family: var(--mono);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  padding-left: 0.34em;
+}
+
+.sub {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.82;
+}
+
+.spotify {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  white-space: nowrap;
+  text-shadow: 0 1px 16px rgba(0, 0, 0, 0.55);
+  transition: border-color 0.15s ease, opacity 0.15s ease;
+}
+.spotify:hover {
+  opacity: 0.85;
+  border-color: #fff;
+}
+
+/* ── Bottom dock + glass pill ──────────────────────────────────────── */
+.dock {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: max(26px, env(safe-area-inset-bottom));
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 0 16px;
+}
+
+.pill {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  width: min(460px, calc(100vw - 32px));
+  padding: 9px 12px 12px;
+  border-radius: 26px;
+  color: #0b0e11;
+  background: rgba(255, 255, 255, 0.42);
+  -webkit-backdrop-filter: blur(32px) saturate(180%);
+  backdrop-filter: blur(32px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow:
+    0 14px 48px rgba(0, 0, 0, 0.42),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+.art {
+  flex: 0 0 auto;
+  width: 46px;
+  height: 46px;
+  border-radius: 11px;
+  object-fit: cover;
+  background: #0d2a2c;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0; /* enables truncation */
+  flex: 1 1 auto;
+}
+
+.title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artist {
+  font-size: 0.8rem;
+  color: rgba(11, 14, 17, 0.64);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.buttons {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.btn {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #0b0e11;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.05s ease;
+}
+.btn:hover {
+  background: rgba(0, 0, 0, 0.07);
+}
+.btn:active {
+  transform: scale(0.92);
+}
+.btn:focus-visible {
+  outline: 2px solid rgba(11, 14, 17, 0.5);
+  outline-offset: 2px;
+}
+.play {
+  width: 46px;
+  height: 46px;
+}
+
+/* Slim seek bar hugging the bottom edge of the pill. */
+.seek {
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: 5px;
+  width: auto;
+  height: 3px;
+  border-radius: 2px;
+  cursor: pointer;
+  background: linear-gradient(
+    to right,
+    rgba(11, 14, 17, 0.75) 0%,
+    rgba(11, 14, 17, 0.75) var(--progress, 0%),
+    rgba(11, 14, 17, 0.18) var(--progress, 0%),
+    rgba(11, 14, 17, 0.18) 100%
+  );
+}
+.seek::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0b0e11;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.seek:hover::-webkit-slider-thumb {
+  opacity: 1;
+}
+.seek::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 50%;
+  background: #0b0e11;
+  opacity: 0;
+}
+.seek:hover::-moz-range-thumb {
+  opacity: 1;
+}
+
+/* ── Hint line under the pill ──────────────────────────────────────── */
+.hint {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.82);
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+}
+.count {
+  font-variant-numeric: tabular-nums;
+}
+.preview {
+  opacity: 0.7;
+}
+
+@media (max-width: 420px) {
+  .sub {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn,
+  .spotify,
+  .seek::-webkit-slider-thumb {
+    transition: none;
+  }
+}

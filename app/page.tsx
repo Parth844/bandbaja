@@ -1,10 +1,5 @@
-import Player from "@/components/Player";
-import { track } from "@/lib/track";
+import GlassPlayer from "@/components/GlassPlayer";
 
 export default function Home() {
-  return (
-    <main className="page">
-      <Player track={track} />
-    </main>
-  );
+  return <GlassPlayer />;
 }

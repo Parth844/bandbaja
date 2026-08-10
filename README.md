@@ -1,11 +1,13 @@
 # bandbaja
 
-A minimalist, brutalist **single-track music player** — inspired by
-[saloon.wtf](https://saloon.wtf/). Dark stage, mono type, a big cover, one
-song, one scrub bar. Built with **Next.js (App Router) + React + TypeScript**
-and zero UI dependencies.
+A music player with a full-bleed background and an Apple-Music-style **liquid-glass
+now-playing bar**, pinned bottom-center — inspired by
+[saloon.wtf](https://saloon.wtf/). Built with **Next.js (App Router) + React +
+TypeScript**, zero UI dependencies.
 
-<!-- Preview: dark centered player with cover art, play/pause and a thin progress bar. -->
+Currently playing **“pahado mein chale?”** by *hreelina* — 90 tracks, 30-second
+previews, with working **play/pause, next, previous**, scrubbing, and
+auto-advance.
 
 ## Run it locally
 
@@ -16,54 +18,56 @@ npm run dev
 
 Open http://localhost:3000.
 
-It works out of the box using placeholder assets (a generated audio tone and a
-generated SVG cover), so you can see the player before adding your own song.
+## Add your background image
 
-## Make it yours
+Drop your artwork at **`public/background.jpg`** — it fills the screen behind
+the glass bar. Until you add it (or if it fails to load), a cave-lagoon gradient
+that matches the vibe shows instead, so nothing ever looks broken. (Any
+web-friendly name works if you also update `.bg` in
+[`components/GlassPlayer.module.css`](components/GlassPlayer.module.css).)
 
-Everything lives in **one file**: [`lib/track.ts`](lib/track.ts).
+## Change the playlist
 
-1. Drop your song into `public/audio/` (e.g. `public/audio/my-song.mp3`).
-2. Drop your cover art into `public/` (e.g. `public/cover.jpg`, ideally square).
-3. Edit `lib/track.ts`:
+1. Edit the Spotify details in [`lib/playlist.ts`](lib/playlist.ts)
+   (`spotifyId`, `url`, `title`, `owner`, `coverUrl`).
+2. Regenerate the track list + previews:
 
-   ```ts
-   export const track: Track = {
-     siteName: "BANDBAJA",           // top wordmark
-     title: "My Song",
-     artist: "My Name",
-     src: "/audio/my-song.mp3",      // path under /public
-     cover: "/cover.jpg",            // path under /public
-     links: [
-       { label: "Spotify",  href: "https://open.spotify.com/..." },
-       { label: "YT Music", href: "https://music.youtube.com/..." },
-     ],
-   };
+   ```bash
+   node scripts/refresh-playlist.mjs        # uses the id in lib/playlist.ts
+   # or: node scripts/refresh-playlist.mjs <playlistId>
    ```
 
-   Leave `links` empty (`[]`) to hide the streaming row entirely.
+   This rewrites [`lib/tracks.json`](lib/tracks.json) from the playlist's public
+   Spotify embed data (title, artist, duration, 30-second preview MP3 per track).
 
-The placeholder tone (`public/audio/track.wav`) and `public/cover.svg` are safe
-to delete once you've swapped in your own.
+> Note: playback uses Spotify's 30-second **preview** clips (the same ones the
+> web embed uses). Full-length playback would require Spotify OAuth + Premium,
+> which is out of scope for a static site.
+
+## Controls
+
+- **Play / Pause** — center button, or the spacebar
+- **Next / Previous** — side buttons, or ← / → arrows (previous restarts the
+  track first if you're more than 3s in, like Apple Music)
+- **Scrub** — the slim bar along the bottom of the glass pill
+- Tracks **auto-advance** and the list loops
 
 ## Look & feel
 
-Tweak the palette and type in [`app/globals.css`](app/globals.css)
-(`--bg`, `--fg`, `--muted`, `--line`, fonts). Player layout lives in
-[`components/Player.module.css`](components/Player.module.css).
+Palette and fonts: [`app/globals.css`](app/globals.css). The glass bar, layout,
+and background live in
+[`components/GlassPlayer.module.css`](components/GlassPlayer.module.css).
 
 ## Deploy to Vercel
 
-1. Push this repo to GitHub (already done if you're reading this there).
-2. Go to [vercel.com/new](https://vercel.com/new), import the `bandbaja` repo.
-3. Framework preset auto-detects **Next.js** — no config needed
-   (`vercel.json` is included). Click **Deploy**.
+Import the repo at [vercel.com/new](https://vercel.com/new) — Next.js is
+auto-detected (`vercel.json` included). Click **Deploy**.
 
 ## Scripts
 
-| Command         | What it does                    |
-| --------------- | ------------------------------- |
-| `npm run dev`   | Start the dev server            |
-| `npm run build` | Production build                |
-| `npm run start` | Serve the production build      |
-| `npm run lint`  | Lint                            |
+| Command                              | What it does                        |
+| ------------------------------------ | ----------------------------------- |
+| `npm run dev`                        | Start the dev server                |
+| `npm run build`                      | Production build                    |
+| `npm run start`                      | Serve the production build          |
+| `node scripts/refresh-playlist.mjs`  | Rebuild `lib/tracks.json` from Spotify |

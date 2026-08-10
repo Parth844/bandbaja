@@ -1,5 +1,5 @@
 :root {
-  --bg: #0a0a0a;
+  --bg: #06161a;
   --fg: #ededed;
   --muted: #8a8a8a;
   --line: #262626;
@@ -17,6 +17,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body {
@@ -25,18 +26,10 @@ body {
   font-family: var(--sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-}
-
-/* Full-viewport centered stage, saloon.wtf-style. */
-.page {
-  min-height: 100dvh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 40px 24px;
+  overflow: hidden; /* the player is a fixed full-bleed stage */
 }
 
 ::selection {
-  background: var(--fg);
-  color: var(--bg);
+  background: #fff;
+  color: #0b0e11;
 }
