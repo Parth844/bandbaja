@@ -5,7 +5,7 @@
     "url": "https://open.spotify.com/playlist/0sPtH0QaSeu2Hcxahtry8K"
   },
   "generatedFrom": "https://open.spotify.com/embed/playlist/0sPtH0QaSeu2Hcxahtry8K?utm_source=generator",
-  "count": 90,
+  "count": 88,
   "tracks": [
     {
       "id": "1EuQFujqMzy76oZZ7R2xNO",
@@ -13,7 +13,11 @@
       "artist": "Salman Elahi",
       "durationMs": 225391,
       "url": "https://open.spotify.com/track/1EuQFujqMzy76oZZ7R2xNO",
-      "preview": "https://p.scdn.co/mp3-preview/d6c5cc0214459d5c51fcca38a2b265771fb608aa"
+      "preview": "https://p.scdn.co/mp3-preview/d6c5cc0214459d5c51fcca38a2b265771fb608aa",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738aabb8ac808389e9c3579c61",
+      "released": "2020-01-23T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "1kcV2LJxt5v0s2cEGtEJ5i",
@@ -21,7 +25,11 @@
       "artist": "Mohit Chauhan",
       "durationMs": 268833,
       "url": "https://open.spotify.com/track/1kcV2LJxt5v0s2cEGtEJ5i",
-      "preview": "https://p.scdn.co/mp3-preview/42708f56a78c632f307bde4333bb00d8f9edc1a0"
+      "preview": "https://p.scdn.co/mp3-preview/42708f56a78c632f307bde4333bb00d8f9edc1a0",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27354e544672baa16145d67612b",
+      "released": "2011-10-01T00:00:00Z",
+      "year": "2011",
+      "isExplicit": false
     },
     {
       "id": "74kCarkFBzXYXNkkYJIsG0",
@@ -29,15 +37,23 @@
       "artist": "Anuv Jain",
       "durationMs": 212773,
       "url": "https://open.spotify.com/track/74kCarkFBzXYXNkkYJIsG0",
-      "preview": "https://p.scdn.co/mp3-preview/a7d720c3dad31b983d7b80910e90310e65becfc7"
+      "preview": "https://p.scdn.co/mp3-preview/a7d720c3dad31b983d7b80910e90310e65becfc7",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735d7a296e99b415bc012c03e3",
+      "released": "2020-07-31T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "5cgKosPPj5Cs9a2JQufUc1",
       "title": "Ilahi",
-      "artist": "Pritam, Arijit Singh, Amitabh Bhattacharya",
+      "artist": "Pritam, Arijit Singh, Amitabh Bhattacharya",
       "durationMs": 228982,
       "url": "https://open.spotify.com/track/5cgKosPPj5Cs9a2JQufUc1",
-      "preview": "https://p.scdn.co/mp3-preview/f370312842334fb48cd7ac346f2c63f8fe603eac"
+      "preview": "https://p.scdn.co/mp3-preview/f370312842334fb48cd7ac346f2c63f8fe603eac",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273707ea5b8023ac77d31756ed4",
+      "released": "2013-03-30T00:00:00Z",
+      "year": "2013",
+      "isExplicit": false
     },
     {
       "id": "5GJPqaqlCSN19ReZ3Hmue4",
@@ -45,7 +61,11 @@
       "artist": "When Chai Met Toast",
       "durationMs": 266393,
       "url": "https://open.spotify.com/track/5GJPqaqlCSN19ReZ3Hmue4",
-      "preview": "https://p.scdn.co/mp3-preview/f701b80d4572a9d23740e7703de3882e7417f4fe"
+      "preview": "https://p.scdn.co/mp3-preview/f701b80d4572a9d23740e7703de3882e7417f4fe",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27311c6f185418cc5197ba19d6e",
+      "released": "2020-08-02T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "57TrQP3nPUoc92VsooFB7p",
@@ -53,15 +73,23 @@
       "artist": "When Chai Met Toast",
       "durationMs": 215173,
       "url": "https://open.spotify.com/track/57TrQP3nPUoc92VsooFB7p",
-      "preview": "https://p.scdn.co/mp3-preview/d382e150f2ad47da7437759dbf622200dc6e85b8"
+      "preview": "https://p.scdn.co/mp3-preview/d382e150f2ad47da7437759dbf622200dc6e85b8",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27311c6f185418cc5197ba19d6e",
+      "released": "2020-09-18T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "0zFcYzwaLbJAhg7bvSVavv",
       "title": "Mai Ni Meriye",
-      "artist": "Lost Stories, Jonita Gandhi, Ashwin Adwani",
+      "artist": "Lost Stories, Jonita Gandhi, Ashwin Adwani",
       "durationMs": 172901,
       "url": "https://open.spotify.com/track/0zFcYzwaLbJAhg7bvSVavv",
-      "preview": "https://p.scdn.co/mp3-preview/942137f2c7fab2a5d5b4f85a03904b94279e3f71"
+      "preview": "https://p.scdn.co/mp3-preview/942137f2c7fab2a5d5b4f85a03904b94279e3f71",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27391bacbc9b1094fc3fd31169a",
+      "released": "2020-05-21T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "3FTRSa9mWB3kKx2jkhUAN3",
@@ -69,7 +97,11 @@
       "artist": "Prateek Kuhad",
       "durationMs": 235932,
       "url": "https://open.spotify.com/track/3FTRSa9mWB3kKx2jkhUAN3",
-      "preview": "https://p.scdn.co/mp3-preview/002a1500e0d3a46344d8b8efa420bfdf71d0b963"
+      "preview": "https://p.scdn.co/mp3-preview/002a1500e0d3a46344d8b8efa420bfdf71d0b963",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273084e8262a7d8c218056525d1",
+      "released": "2017-04-24T00:00:00Z",
+      "year": "2017",
+      "isExplicit": false
     },
     {
       "id": "7x5gwdWM7oc6aJ7ZXy9Vnw",
@@ -77,7 +109,11 @@
       "artist": "Lucky Ali",
       "durationMs": 255160,
       "url": "https://open.spotify.com/track/7x5gwdWM7oc6aJ7ZXy9Vnw",
-      "preview": "https://p.scdn.co/mp3-preview/f01bc76d0b3cb9554ba3b0f2a725f757baf09291"
+      "preview": "https://p.scdn.co/mp3-preview/f01bc76d0b3cb9554ba3b0f2a725f757baf09291",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27335819a631fac5fea668f5368",
+      "released": "2000-10-13T00:00:00Z",
+      "year": "2000",
+      "isExplicit": false
     },
     {
       "id": "1gEHNfJRSXpDVaEicwRRfe",
@@ -85,7 +121,11 @@
       "artist": "Amit Trivedi",
       "durationMs": 241962,
       "url": "https://open.spotify.com/track/1gEHNfJRSXpDVaEicwRRfe",
-      "preview": "https://p.scdn.co/mp3-preview/cc208480b0674d28f3b2f41bb34a71c2871a4041"
+      "preview": "https://p.scdn.co/mp3-preview/cc208480b0674d28f3b2f41bb34a71c2871a4041",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730e26db222796cf4207425abc",
+      "released": "2013-05-29T00:00:00Z",
+      "year": "2013",
+      "isExplicit": false
     },
     {
       "id": "6q7bXTv3yBedHblKRoC5uu",
@@ -93,7 +133,11 @@
       "artist": "Prateek Kuhad",
       "durationMs": 214603,
       "url": "https://open.spotify.com/track/6q7bXTv3yBedHblKRoC5uu",
-      "preview": "https://p.scdn.co/mp3-preview/961aa4cffa9cc7b7cd3225d4ecc59629e5acdd8f"
+      "preview": "https://p.scdn.co/mp3-preview/961aa4cffa9cc7b7cd3225d4ecc59629e5acdd8f",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273f07f0455c6cc38f14105acfb",
+      "released": "2018-07-13T00:00:00Z",
+      "year": "2018",
+      "isExplicit": false
     },
     {
       "id": "3Gc4zbfvgZSBEfpd0aWEFb",
@@ -101,7 +145,11 @@
       "artist": "The Local Train",
       "durationMs": 297642,
       "url": "https://open.spotify.com/track/3Gc4zbfvgZSBEfpd0aWEFb",
-      "preview": "https://p.scdn.co/mp3-preview/45a653b923eee661b95dfb58c6383ce7fbee39f4"
+      "preview": "https://p.scdn.co/mp3-preview/45a653b923eee661b95dfb58c6383ce7fbee39f4",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27373c6514b296e0b53dc7b75b3",
+      "released": "2018-01-29T00:00:00Z",
+      "year": "2018",
+      "isExplicit": false
     },
     {
       "id": "51Gk1czQl7NjX0jHwawO1G",
@@ -109,15 +157,23 @@
       "artist": "Prateek Kuhad",
       "durationMs": 247688,
       "url": "https://open.spotify.com/track/51Gk1czQl7NjX0jHwawO1G",
-      "preview": "https://p.scdn.co/mp3-preview/608dcf07c7a321cc241cc4b696bc4b14d0d00355"
+      "preview": "https://p.scdn.co/mp3-preview/608dcf07c7a321cc241cc4b696bc4b14d0d00355",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273da75da7e689922e5fdaa5009",
+      "released": "2013-08-18T00:00:00Z",
+      "year": "2013",
+      "isExplicit": false
     },
     {
       "id": "4kXkT9HF9ZfDjuv3LIKcwJ",
       "title": "Dil Beparvah - The Dewarists, Season 5",
-      "artist": "Ankur Tewari, Prateek Kuhad, Dhruv Bhola, Nikhil Vasudevan",
+      "artist": "Ankur Tewari, Prateek Kuhad, Dhruv Bhola, Nikhil Vasudevan",
       "durationMs": 250000,
       "url": "https://open.spotify.com/track/4kXkT9HF9ZfDjuv3LIKcwJ",
-      "preview": "https://p.scdn.co/mp3-preview/321d06432d618120db239373f0e9796b30477541"
+      "preview": "https://p.scdn.co/mp3-preview/321d06432d618120db239373f0e9796b30477541",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733851cc971e6b035b9dec4d1a",
+      "released": "2016-11-17T00:00:00Z",
+      "year": "2016",
+      "isExplicit": false
     },
     {
       "id": "2mBB2zb1fc65Jh53HhI73E",
@@ -125,7 +181,11 @@
       "artist": "Lucky Ali",
       "durationMs": 231240,
       "url": "https://open.spotify.com/track/2mBB2zb1fc65Jh53HhI73E",
-      "preview": "https://p.scdn.co/mp3-preview/c7f4fa59369f97337e6a50ee7315f6dd2c27b74e"
+      "preview": "https://p.scdn.co/mp3-preview/c7f4fa59369f97337e6a50ee7315f6dd2c27b74e",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27335819a631fac5fea668f5368",
+      "released": "1998-12-18T00:00:00Z",
+      "year": "1998",
+      "isExplicit": false
     },
     {
       "id": "6w458kA8WOAIZr1ublxnK9",
@@ -133,7 +193,11 @@
       "artist": "Lucky Ali",
       "durationMs": 251402,
       "url": "https://open.spotify.com/track/6w458kA8WOAIZr1ublxnK9",
-      "preview": "https://p.scdn.co/mp3-preview/738c0e5cfa4b6aec97fc18dcc131059abe4849ae"
+      "preview": "https://p.scdn.co/mp3-preview/738c0e5cfa4b6aec97fc18dcc131059abe4849ae",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273da50894e074ecd5ce61de0a1",
+      "released": "2015-10-16T00:00:00Z",
+      "year": "2015",
+      "isExplicit": false
     },
     {
       "id": "1sbW5E7w8tnqpYk0Frx8QG",
@@ -141,23 +205,35 @@
       "artist": "A.R. Rahman",
       "durationMs": 240784,
       "url": "https://open.spotify.com/track/1sbW5E7w8tnqpYk0Frx8QG",
-      "preview": "https://p.scdn.co/mp3-preview/c79d916470ff6fbfe2bf690d13a3e6ca76630d0e"
+      "preview": "https://p.scdn.co/mp3-preview/c79d916470ff6fbfe2bf690d13a3e6ca76630d0e",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731f4e9ecaf6913e207810093f",
+      "released": "2014-01-22T00:00:00Z",
+      "year": "2014",
+      "isExplicit": false
     },
     {
       "id": "6z78Tk9c2a4Kw3XtlI8XT6",
       "title": "Baagay",
-      "artist": "Hari & Sukhmani, The Coconut Kids",
+      "artist": "Hari & Sukhmani, The Coconut Kids",
       "durationMs": 268129,
       "url": "https://open.spotify.com/track/6z78Tk9c2a4Kw3XtlI8XT6",
-      "preview": "https://p.scdn.co/mp3-preview/df1b5b464bbe32bedda1aea06d0125d51d577ae3"
+      "preview": "https://p.scdn.co/mp3-preview/df1b5b464bbe32bedda1aea06d0125d51d577ae3",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27314cb3ef70dd61ae1ecdc28c7",
+      "released": "2019-05-17T00:00:00Z",
+      "year": "2019",
+      "isExplicit": false
     },
     {
       "id": "3e44jPHjpH8gGWWD6Ey4ih",
       "title": "Iktara - MTV Unplugged Version",
-      "artist": "Amit Trivedi, Kavita Seth",
+      "artist": "Amit Trivedi, Kavita Seth",
       "durationMs": 553590,
       "url": "https://open.spotify.com/track/3e44jPHjpH8gGWWD6Ey4ih",
-      "preview": "https://p.scdn.co/mp3-preview/83f137661e77b6d8b44f7a1b03d66ce99c5ece6c"
+      "preview": "https://p.scdn.co/mp3-preview/83f137661e77b6d8b44f7a1b03d66ce99c5ece6c",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c0936ebb1a57065db4e61fd7",
+      "released": "2015-01-30T00:00:00Z",
+      "year": "2015",
+      "isExplicit": false
     },
     {
       "id": "2r1CHpKRDdzHGJScn5UqjX",
@@ -165,7 +241,11 @@
       "artist": "Shankar Mahadevan",
       "durationMs": 310080,
       "url": "https://open.spotify.com/track/2r1CHpKRDdzHGJScn5UqjX",
-      "preview": "https://p.scdn.co/mp3-preview/a89fa941db344d53962efc0aa0743ae9d223b6b5"
+      "preview": "https://p.scdn.co/mp3-preview/a89fa941db344d53962efc0aa0743ae9d223b6b5",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2735da5e18b4f9a33d42e737c21",
+      "released": "2001-06-22T00:00:00Z",
+      "year": "2001",
+      "isExplicit": false
     },
     {
       "id": "6l1VsKiMyaUWElFrM1rsuu",
@@ -173,7 +253,11 @@
       "artist": "Prateek Kuhad",
       "durationMs": 266041,
       "url": "https://open.spotify.com/track/6l1VsKiMyaUWElFrM1rsuu",
-      "preview": "https://p.scdn.co/mp3-preview/437169f3ecd9b2af3d8a78662dad26260537cb07"
+      "preview": "https://p.scdn.co/mp3-preview/437169f3ecd9b2af3d8a78662dad26260537cb07",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f07f0455c6cc38f14105acfb",
+      "released": "2018-07-13T00:00:00Z",
+      "year": "2018",
+      "isExplicit": false
     },
     {
       "id": "0dUvKIQzOkofLditZUWbJY",
@@ -181,23 +265,35 @@
       "artist": "Mohit Chauhan",
       "durationMs": 334453,
       "url": "https://open.spotify.com/track/0dUvKIQzOkofLditZUWbJY",
-      "preview": "https://p.scdn.co/mp3-preview/e2c847724632a0b899351a60389975dc7e696123"
+      "preview": "https://p.scdn.co/mp3-preview/e2c847724632a0b899351a60389975dc7e696123",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e1cc217267ac17d1af687caa",
+      "released": "2009-01-01T00:00:00Z",
+      "year": "2009",
+      "isExplicit": false
     },
     {
       "id": "7oVKUnaAGVgvGRGs0TQsbx",
       "title": "Atrangi Yaari",
-      "artist": "Rochak Kohli, Amitabh Bachchan, Farhan Akhtar",
+      "artist": "Rochak Kohli, Amitabh Bachchan, Farhan Akhtar",
       "durationMs": 217901,
       "url": "https://open.spotify.com/track/7oVKUnaAGVgvGRGs0TQsbx",
-      "preview": "https://p.scdn.co/mp3-preview/0cfa4d64df4cf9c86d4f4fc3c91a39bd18b65636"
+      "preview": "https://p.scdn.co/mp3-preview/0cfa4d64df4cf9c86d4f4fc3c91a39bd18b65636",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27328189e5da1179f64ec604fea",
+      "released": "2015-12-25T00:00:00Z",
+      "year": "2015",
+      "isExplicit": false
     },
     {
       "id": "12AjhiaIdCBGRgV1iSdPy8",
       "title": "Geet Mein Dhalte Lafzon Mein",
-      "artist": "Amit Trivedi, Amitabh Bhattacharya",
+      "artist": "Amit Trivedi, Amitabh Bhattacharya",
       "durationMs": 295928,
       "url": "https://open.spotify.com/track/12AjhiaIdCBGRgV1iSdPy8",
-      "preview": "https://p.scdn.co/mp3-preview/53d5aeab66689fb4704181a067ec6751f8fd7859"
+      "preview": "https://p.scdn.co/mp3-preview/53d5aeab66689fb4704181a067ec6751f8fd7859",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273539dd7702845ac03e2c64ac5",
+      "released": "2010-06-29T00:00:00Z",
+      "year": "2010",
+      "isExplicit": false
     },
     {
       "id": "0GybyL5gY2kSLgiSwauFei",
@@ -205,7 +301,11 @@
       "artist": "Lucky Ali",
       "durationMs": 238066,
       "url": "https://open.spotify.com/track/0GybyL5gY2kSLgiSwauFei",
-      "preview": "https://p.scdn.co/mp3-preview/c4f2e0e0c0ecc801bcdc8fc57857992862812399"
+      "preview": "https://p.scdn.co/mp3-preview/c4f2e0e0c0ecc801bcdc8fc57857992862812399",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27335819a631fac5fea668f5368",
+      "released": "1998-12-18T00:00:00Z",
+      "year": "1998",
+      "isExplicit": false
     },
     {
       "id": "0SkvSPb1uQH6OCQOFyA1Mz",
@@ -213,7 +313,11 @@
       "artist": "Drew Holcomb & The Neighbors",
       "durationMs": 200937,
       "url": "https://open.spotify.com/track/0SkvSPb1uQH6OCQOFyA1Mz",
-      "preview": "https://p.scdn.co/mp3-preview/fa66713b797fba874c59fc8ef2cceb77705988b6"
+      "preview": "https://p.scdn.co/mp3-preview/fa66713b797fba874c59fc8ef2cceb77705988b6",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273733166764e7bcf5117137a83",
+      "released": "2017-03-24T00:00:00Z",
+      "year": "2017",
+      "isExplicit": false
     },
     {
       "id": "3Pbax4shYwNbtM3xtcKBei",
@@ -221,31 +325,47 @@
       "artist": "Ali Haider",
       "durationMs": 303426,
       "url": "https://open.spotify.com/track/3Pbax4shYwNbtM3xtcKBei",
-      "preview": "https://p.scdn.co/mp3-preview/df7627eac2d474e1e4c303890051ddf27818ac36"
+      "preview": "https://p.scdn.co/mp3-preview/df7627eac2d474e1e4c303890051ddf27818ac36",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273a571519fac800a8a73239e20",
+      "released": "1993-03-18T00:00:00Z",
+      "year": "1993",
+      "isExplicit": false
     },
     {
       "id": "0gWQyG8QoBmB3HmvGugBWH",
       "title": "Hai Apna Dil To Aawara",
-      "artist": "Sanam, S. D. Burman",
+      "artist": "Sanam, S. D. Burman",
       "durationMs": 200689,
       "url": "https://open.spotify.com/track/0gWQyG8QoBmB3HmvGugBWH",
-      "preview": "https://p.scdn.co/mp3-preview/53345c038543c1b2f07ebd2f1f08b9516a9ff150"
+      "preview": "https://p.scdn.co/mp3-preview/53345c038543c1b2f07ebd2f1f08b9516a9ff150",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273720d383b013f75305d3bf444",
+      "released": "2016-03-31T00:00:00Z",
+      "year": "2016",
+      "isExplicit": false
     },
     {
       "id": "1sYC1fG7s4p0pTykrJqmgW",
       "title": "Kyon",
-      "artist": "Pritam, Papon, Sunidhi Chauhan",
+      "artist": "Pritam, Papon, Sunidhi Chauhan",
       "durationMs": 266053,
       "url": "https://open.spotify.com/track/1sYC1fG7s4p0pTykrJqmgW",
-      "preview": "https://p.scdn.co/mp3-preview/a371227e26c4ff006500a2e769664ce7f97532e3"
+      "preview": "https://p.scdn.co/mp3-preview/a371227e26c4ff006500a2e769664ce7f97532e3",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273352f44aed6f226c6ea28b961",
+      "released": "2012-06-24T00:00:00Z",
+      "year": "2012",
+      "isExplicit": false
     },
     {
       "id": "6871FKHumiy1Wfr6vF7Xxt",
       "title": "Hawayein (From \"Jab Harry Met Sejal\")",
-      "artist": "Pritam, Arijit Singh",
+      "artist": "Pritam, Arijit Singh",
       "durationMs": 290000,
       "url": "https://open.spotify.com/track/6871FKHumiy1Wfr6vF7Xxt",
-      "preview": "https://p.scdn.co/mp3-preview/dc11595482bbc7f89e045ac248b8b05782401b65"
+      "preview": "https://p.scdn.co/mp3-preview/dc11595482bbc7f89e045ac248b8b05782401b65",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273cd6ff6687447b928a28a7aa2",
+      "released": "2017-07-26T00:00:00Z",
+      "year": "2017",
+      "isExplicit": false
     },
     {
       "id": "6ZmtxXUXRVjxOhugKkmerC",
@@ -253,7 +373,11 @@
       "artist": "The Local Train",
       "durationMs": 211290,
       "url": "https://open.spotify.com/track/6ZmtxXUXRVjxOhugKkmerC",
-      "preview": "https://p.scdn.co/mp3-preview/c8b36eced4c8417bdca85d5aa8ed51ffb9dc6f8e"
+      "preview": "https://p.scdn.co/mp3-preview/c8b36eced4c8417bdca85d5aa8ed51ffb9dc6f8e",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738e001d2d4b55039b545d047e",
+      "released": "2015-09-25T00:00:00Z",
+      "year": "2015",
+      "isExplicit": false
     },
     {
       "id": "5VSJ9OfZx8V91A7u8Fuoh1",
@@ -261,7 +385,11 @@
       "artist": "The Local Train",
       "durationMs": 313163,
       "url": "https://open.spotify.com/track/5VSJ9OfZx8V91A7u8Fuoh1",
-      "preview": "https://p.scdn.co/mp3-preview/d7628e3bcc3a0abedaf8be874ab1e0caf720e2c7"
+      "preview": "https://p.scdn.co/mp3-preview/d7628e3bcc3a0abedaf8be874ab1e0caf720e2c7",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2738e001d2d4b55039b545d047e",
+      "released": "2015-09-25T00:00:00Z",
+      "year": "2015",
+      "isExplicit": false
     },
     {
       "id": "4LtSTc3xANVhYeeN69nscM",
@@ -269,7 +397,11 @@
       "artist": "The Local Train",
       "durationMs": 233471,
       "url": "https://open.spotify.com/track/4LtSTc3xANVhYeeN69nscM",
-      "preview": "https://p.scdn.co/mp3-preview/da77940382cf3b687d1918f62dac45baf7a24e15"
+      "preview": "https://p.scdn.co/mp3-preview/da77940382cf3b687d1918f62dac45baf7a24e15",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27373c6514b296e0b53dc7b75b3",
+      "released": "2018-01-29T00:00:00Z",
+      "year": "2018",
+      "isExplicit": false
     },
     {
       "id": "669PEr8I3wOswY8BANBpdh",
@@ -277,7 +409,11 @@
       "artist": "Taba Chake",
       "durationMs": 208000,
       "url": "https://open.spotify.com/track/669PEr8I3wOswY8BANBpdh",
-      "preview": "https://p.scdn.co/mp3-preview/8ccfd9a18a858bc1470288470f0ab74188ab4fbf"
+      "preview": "https://p.scdn.co/mp3-preview/8ccfd9a18a858bc1470288470f0ab74188ab4fbf",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730f166688d878f2ad15fd9dd2",
+      "released": "2019-04-25T00:00:00Z",
+      "year": "2019",
+      "isExplicit": false
     },
     {
       "id": "0RSGPiykniIg8m7JhiAVv7",
@@ -285,7 +421,11 @@
       "artist": "Anupam Roy",
       "durationMs": 218930,
       "url": "https://open.spotify.com/track/0RSGPiykniIg8m7JhiAVv7",
-      "preview": "https://p.scdn.co/mp3-preview/88ec799f71230a100e45853d5c8c4c0eb80d6182"
+      "preview": "https://p.scdn.co/mp3-preview/88ec799f71230a100e45853d5c8c4c0eb80d6182",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fb79898c9e091ffd233b9b3c",
+      "released": "2020-07-02T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "5iCY0TXNImK4hyKfcplQsg",
@@ -293,7 +433,11 @@
       "artist": "Anuv Jain",
       "durationMs": 207309,
       "url": "https://open.spotify.com/track/5iCY0TXNImK4hyKfcplQsg",
-      "preview": "https://p.scdn.co/mp3-preview/397c6c81db8847cc1c8c1ca3022d336385806da0"
+      "preview": "https://p.scdn.co/mp3-preview/397c6c81db8847cc1c8c1ca3022d336385806da0",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d8ca783fa570b57e082f4374",
+      "released": "2018-01-12T00:00:00Z",
+      "year": "2018",
+      "isExplicit": false
     },
     {
       "id": "0fIbPMXnTdyuW2UirA9mWQ",
@@ -301,7 +445,11 @@
       "artist": "Vismay Patel",
       "durationMs": 174545,
       "url": "https://open.spotify.com/track/0fIbPMXnTdyuW2UirA9mWQ",
-      "preview": "https://p.scdn.co/mp3-preview/41c8cb76c9830c079d868194cd1f73d214a7d90b"
+      "preview": "https://p.scdn.co/mp3-preview/41c8cb76c9830c079d868194cd1f73d214a7d90b",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733e048a9c81b73d5f2ca94ce6",
+      "released": "2020-06-13T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "1H5TcdTdMYvOfJ31SAA6H5",
@@ -309,7 +457,11 @@
       "artist": "The Local Train",
       "durationMs": 239085,
       "url": "https://open.spotify.com/track/1H5TcdTdMYvOfJ31SAA6H5",
-      "preview": "https://p.scdn.co/mp3-preview/5577c0076c553c91e85015310e6c534e8acbe761"
+      "preview": "https://p.scdn.co/mp3-preview/5577c0076c553c91e85015310e6c534e8acbe761",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738e001d2d4b55039b545d047e",
+      "released": "2015-09-25T00:00:00Z",
+      "year": "2015",
+      "isExplicit": false
     },
     {
       "id": "7cmJeELrvGn0I6LKsxNHgl",
@@ -317,15 +469,23 @@
       "artist": "Ashu Shukla",
       "durationMs": 196920,
       "url": "https://open.spotify.com/track/7cmJeELrvGn0I6LKsxNHgl",
-      "preview": "https://p.scdn.co/mp3-preview/9d2f249ed7671f5f58aa0a8228b5ee06a94a0f42"
+      "preview": "https://p.scdn.co/mp3-preview/9d2f249ed7671f5f58aa0a8228b5ee06a94a0f42",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c6dc61699c21d3af61fa8413",
+      "released": "2020-08-03T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "6E6BCsQHXDAdXsrL7zV71N",
       "title": "Roz Roz",
-      "artist": "The Yellow Diary, Shilpa Rao",
+      "artist": "The Yellow Diary, Shilpa Rao",
       "durationMs": 218550,
       "url": "https://open.spotify.com/track/6E6BCsQHXDAdXsrL7zV71N",
-      "preview": "https://p.scdn.co/mp3-preview/bf0a7e40298793a1b288f935ff4a7968084f61c7"
+      "preview": "https://p.scdn.co/mp3-preview/bf0a7e40298793a1b288f935ff4a7968084f61c7",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f81ba9627d6b9523efcdb4ed",
+      "released": "2021-02-04T00:00:00Z",
+      "year": "2021",
+      "isExplicit": false
     },
     {
       "id": "7nIyZpAsOH3U0dYBiozXea",
@@ -333,7 +493,11 @@
       "artist": "The Yellow Diary",
       "durationMs": 190122,
       "url": "https://open.spotify.com/track/7nIyZpAsOH3U0dYBiozXea",
-      "preview": "https://p.scdn.co/mp3-preview/fe15ba027b26d077dfa523ce24061f5045a47ad2"
+      "preview": "https://p.scdn.co/mp3-preview/fe15ba027b26d077dfa523ce24061f5045a47ad2",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273f52853a862ad7752f666969f",
+      "released": "2018-11-16T00:00:00Z",
+      "year": "2018",
+      "isExplicit": false
     },
     {
       "id": "6VUU3EFm90Z0pDw4sYEP3K",
@@ -341,7 +505,11 @@
       "artist": "Taba Chake",
       "durationMs": 214000,
       "url": "https://open.spotify.com/track/6VUU3EFm90Z0pDw4sYEP3K",
-      "preview": "https://p.scdn.co/mp3-preview/c1c71b5418282dd9b58696025bcf0abd2fe52714"
+      "preview": "https://p.scdn.co/mp3-preview/c1c71b5418282dd9b58696025bcf0abd2fe52714",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2730f166688d878f2ad15fd9dd2",
+      "released": "2019-04-25T00:00:00Z",
+      "year": "2019",
+      "isExplicit": false
     },
     {
       "id": "1gWtHDe403RuyZqhvSRcv8",
@@ -349,7 +517,11 @@
       "artist": "Prateek Kuhad",
       "durationMs": 216885,
       "url": "https://open.spotify.com/track/1gWtHDe403RuyZqhvSRcv8",
-      "preview": "https://p.scdn.co/mp3-preview/ff0bed602535c5312eac8a2f5a0392210aafd304"
+      "preview": "https://p.scdn.co/mp3-preview/ff0bed602535c5312eac8a2f5a0392210aafd304",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733214a3bb5d7728018acc90be",
+      "released": "2016-02-22T00:00:00Z",
+      "year": "2016",
+      "isExplicit": false
     },
     {
       "id": "1xtkLqZcGPQZP9549WlmfH",
@@ -357,7 +529,23 @@
       "artist": "Anuv Jain",
       "durationMs": 200437,
       "url": "https://open.spotify.com/track/1xtkLqZcGPQZP9549WlmfH",
-      "preview": "https://p.scdn.co/mp3-preview/707074ffc482fa011b3c68dff2e91239ea6a875d"
+      "preview": "https://p.scdn.co/mp3-preview/707074ffc482fa011b3c68dff2e91239ea6a875d",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273aac0305160f2e950afa2ff5f",
+      "released": "2020-11-27T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
+    },
+    {
+      "id": "1vNXvCxrcKg8Mq6KHAV6ZF",
+      "title": "Bachelor Boy",
+      "artist": "Cliff Richard & The Shadows",
+      "durationMs": 122339,
+      "url": "https://open.spotify.com/track/1vNXvCxrcKg8Mq6KHAV6ZF",
+      "preview": "https://p.scdn.co/mp3-preview/005381b9c938443d4511f511b90fbf316c21134b",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273056378459f1653d251d9f6c0",
+      "released": "2014-01-01T00:00:00Z",
+      "year": "2014",
+      "isExplicit": false
     },
     {
       "id": "1WZ6DoB1YdMJ3dW4CIWqCH",
@@ -365,39 +553,59 @@
       "artist": "Punit Singh",
       "durationMs": 238315,
       "url": "https://open.spotify.com/track/1WZ6DoB1YdMJ3dW4CIWqCH",
-      "preview": "https://p.scdn.co/mp3-preview/3e36a7004354cac583e41345e05e4fc6e8330f70"
+      "preview": "https://p.scdn.co/mp3-preview/3e36a7004354cac583e41345e05e4fc6e8330f70",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2732924ef5c7f32177c179abfa2",
+      "released": "2020-07-06T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "2BOY77LvMTUOfLcnfFAJGl",
       "title": "Dhan Te Nan",
-      "artist": "Sukhwinder Singh, Vishal Dadlani, Robert Bob Omulo",
+      "artist": "Sukhwinder Singh, Vishal Dadlani, Robert Bob Omulo",
       "durationMs": 279933,
       "url": "https://open.spotify.com/track/2BOY77LvMTUOfLcnfFAJGl",
-      "preview": "https://p.scdn.co/mp3-preview/c5a9b71548f50c812732fbc143f8b8f4d47ec281"
+      "preview": "https://p.scdn.co/mp3-preview/c5a9b71548f50c812732fbc143f8b8f4d47ec281",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273697900b24eb6e48a78923d98",
+      "released": "2009-07-06T00:00:00Z",
+      "year": "2009",
+      "isExplicit": false
     },
     {
       "id": "4BH3FzJwNvjDpL8J78NMYM",
       "title": "Safar (From \"Jab Harry Met Sejal\")",
-      "artist": "Pritam, Arijit Singh",
+      "artist": "Pritam, Arijit Singh",
       "durationMs": 365669,
       "url": "https://open.spotify.com/track/4BH3FzJwNvjDpL8J78NMYM",
-      "preview": "https://p.scdn.co/mp3-preview/7196a861116a975512e7c63eed78b89ea4b678ab"
+      "preview": "https://p.scdn.co/mp3-preview/7196a861116a975512e7c63eed78b89ea4b678ab",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27308ff82b210c2c8e7a15c2a9d",
+      "released": "2017-07-10T00:00:00Z",
+      "year": "2017",
+      "isExplicit": false
     },
     {
       "id": "7ttlemwytO21npSmLKqTBg",
       "title": "Aashiyan",
-      "artist": "Pritam, Shreya Ghoshal, Nikhil Paul George",
+      "artist": "Pritam, Shreya Ghoshal, Nikhil Paul George",
       "durationMs": 236373,
       "url": "https://open.spotify.com/track/7ttlemwytO21npSmLKqTBg",
-      "preview": "https://p.scdn.co/mp3-preview/59139d23d66a6a0c81200b576a6f056389fa7233"
+      "preview": "https://p.scdn.co/mp3-preview/59139d23d66a6a0c81200b576a6f056389fa7233",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273352f44aed6f226c6ea28b961",
+      "released": "2012-06-24T00:00:00Z",
+      "year": "2012",
+      "isExplicit": false
     },
     {
       "id": "4pE05HNzmVFGpCOfNKE3w6",
       "title": "Tum Hi Ho Bandhu (From \"Cocktail\")",
-      "artist": "Neeraj Shridhar, Kavita Seth",
+      "artist": "Neeraj Shridhar, Kavita Seth",
       "durationMs": 282012,
       "url": "https://open.spotify.com/track/4pE05HNzmVFGpCOfNKE3w6",
-      "preview": "https://p.scdn.co/mp3-preview/31337ea6788de5065d1fab4e8cc5a7a01f7cf134"
+      "preview": "https://p.scdn.co/mp3-preview/31337ea6788de5065d1fab4e8cc5a7a01f7cf134",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273347c0ed05d0fc9392c7d883e",
+      "released": "2012-06-12T00:00:00Z",
+      "year": "2012",
+      "isExplicit": false
     },
     {
       "id": "6Ln89sczgIcAJXGAIdS94R",
@@ -405,7 +613,11 @@
       "artist": "Anuv Jain",
       "durationMs": 287323,
       "url": "https://open.spotify.com/track/6Ln89sczgIcAJXGAIdS94R",
-      "preview": "https://p.scdn.co/mp3-preview/d3391e373efcb0dc9a2570e298d97deb1732ff3d"
+      "preview": "https://p.scdn.co/mp3-preview/d3391e373efcb0dc9a2570e298d97deb1732ff3d",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733f0728f55894526094f777f9",
+      "released": "2019-07-28T00:00:00Z",
+      "year": "2019",
+      "isExplicit": false
     },
     {
       "id": "3k458zzqcF9UeRfZqRbZYr",
@@ -413,15 +625,23 @@
       "artist": "Prateek Kuhad",
       "durationMs": 286956,
       "url": "https://open.spotify.com/track/3k458zzqcF9UeRfZqRbZYr",
-      "preview": "https://p.scdn.co/mp3-preview/9bc4debb6b0c7649519b9c38baed2f0ed082311a"
+      "preview": "https://p.scdn.co/mp3-preview/9bc4debb6b0c7649519b9c38baed2f0ed082311a",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27338af3bf57b1bdc2086df3ef5",
+      "released": "2013-08-18T00:00:00Z",
+      "year": "2013",
+      "isExplicit": false
     },
     {
       "id": "3xF15SqY32Mno3UUMBirhU",
       "title": "Zehnaseeb",
-      "artist": "Vishal-Shekhar, Chinmayi, Shekhar Ravjiani",
+      "artist": "Vishal-Shekhar, Chinmayi, Shekhar Ravjiani",
       "durationMs": 217440,
       "url": "https://open.spotify.com/track/3xF15SqY32Mno3UUMBirhU",
-      "preview": "https://p.scdn.co/mp3-preview/13d8bbfba6c1c2540a6e74e8c86a9164cfaa166a"
+      "preview": "https://p.scdn.co/mp3-preview/13d8bbfba6c1c2540a6e74e8c86a9164cfaa166a",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2732025db071cd9dd7e8023e01e",
+      "released": "2014-01-05T00:00:00Z",
+      "year": "2014",
+      "isExplicit": false
     },
     {
       "id": "0lkQOB949M2gLyut86aJ1b",
@@ -429,31 +649,47 @@
       "artist": "Cage The Elephant",
       "durationMs": 208760,
       "url": "https://open.spotify.com/track/0lkQOB949M2gLyut86aJ1b",
-      "preview": "https://p.scdn.co/mp3-preview/a7a72315d777f4ed078d955238f9db158c915fc1"
+      "preview": "https://p.scdn.co/mp3-preview/a7a72315d777f4ed078d955238f9db158c915fc1",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273fb1cb900d28642e668d77b12",
+      "released": "2013-10-08T00:00:00Z",
+      "year": "2013",
+      "isExplicit": false
     },
     {
       "id": "5Q58RkKyUafm15Syxg79DW",
       "title": "Sham",
-      "artist": "Amit Trivedi, Nikhil D'Souza, Neuman Pinto",
+      "artist": "Amit Trivedi, Nikhil D'Souza, Neuman Pinto",
       "durationMs": 284626,
       "url": "https://open.spotify.com/track/5Q58RkKyUafm15Syxg79DW",
-      "preview": "https://p.scdn.co/mp3-preview/606950a2eb6a3a8c26302ca00ba34b7084f76e35"
+      "preview": "https://p.scdn.co/mp3-preview/606950a2eb6a3a8c26302ca00ba34b7084f76e35",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273c82a4c10b28c394a59f70c0c",
+      "released": "2010-07-05T00:00:00Z",
+      "year": "2010",
+      "isExplicit": false
     },
     {
       "id": "6cUOiOY5qh2FpIQWIYAd2h",
       "title": "Mehrama",
-      "artist": "Pritam, Darshan Raval, Antara Mitra",
+      "artist": "Pritam, Darshan Raval, Antara Mitra",
       "durationMs": 249415,
       "url": "https://open.spotify.com/track/6cUOiOY5qh2FpIQWIYAd2h",
-      "preview": "https://p.scdn.co/mp3-preview/89f87f58fc92fc5bc9ab6fd809ef87940cfcb8e9"
+      "preview": "https://p.scdn.co/mp3-preview/89f87f58fc92fc5bc9ab6fd809ef87940cfcb8e9",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27351b3e9bb2b71cef8628b2c70",
+      "released": "2020-02-14T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "4bD9z9qa4qg9BhryvYWB7c",
       "title": "Kabira",
-      "artist": "Pritam, Tochi Raina, Rekha Bhardwaj, Amitabh Bhattacharya",
+      "artist": "Pritam, Tochi Raina, Rekha Bhardwaj, Amitabh Bhattacharya",
       "durationMs": 223459,
       "url": "https://open.spotify.com/track/4bD9z9qa4qg9BhryvYWB7c",
-      "preview": "https://p.scdn.co/mp3-preview/75e722cf78b98bd47c25a942da931e2e918b392b"
+      "preview": "https://p.scdn.co/mp3-preview/75e722cf78b98bd47c25a942da931e2e918b392b",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273707ea5b8023ac77d31756ed4",
+      "released": "2013-03-30T00:00:00Z",
+      "year": "2013",
+      "isExplicit": false
     },
     {
       "id": "5jgFfDIR6FR0gvlA56Nakr",
@@ -461,15 +697,23 @@
       "artist": "The Beatles",
       "durationMs": 138386,
       "url": "https://open.spotify.com/track/5jgFfDIR6FR0gvlA56Nakr",
-      "preview": "https://p.scdn.co/mp3-preview/f67978ea311cf631776be6bc403b31204d0cccec"
+      "preview": "https://p.scdn.co/mp3-preview/f67978ea311cf631776be6bc403b31204d0cccec",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734ce8b4e42588bf18182a1ad2",
+      "released": "1968-11-22T00:00:00Z",
+      "year": "1968",
+      "isExplicit": false
     },
     {
       "id": "3uL1IBFhg52VcQqOwAG01E",
       "title": "Mast Magan",
-      "artist": "Arijit Singh, Chinmayi, Shankar-Ehsaan-Loy, Amitabh Bhattacharya",
+      "artist": "Arijit Singh, Chinmayi, Shankar-Ehsaan-Loy, Amitabh Bhattacharya",
       "durationMs": 280161,
       "url": "https://open.spotify.com/track/3uL1IBFhg52VcQqOwAG01E",
-      "preview": "https://p.scdn.co/mp3-preview/c05ff6e79e032b49e0975419a24ea2775c3aaaa6"
+      "preview": "https://p.scdn.co/mp3-preview/c05ff6e79e032b49e0975419a24ea2775c3aaaa6",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c7b8d39b1e113845906984ab",
+      "released": "2014-03-14T00:00:00Z",
+      "year": "2014",
+      "isExplicit": false
     },
     {
       "id": "3RiPr603aXAoi4GHyXx0uy",
@@ -477,31 +721,47 @@
       "artist": "Coldplay",
       "durationMs": 258266,
       "url": "https://open.spotify.com/track/3RiPr603aXAoi4GHyXx0uy",
-      "preview": "https://p.scdn.co/mp3-preview/cb0aa0a64ef56a161fbe2b298174cd69d8a71a9d"
+      "preview": "https://p.scdn.co/mp3-preview/cb0aa0a64ef56a161fbe2b298174cd69d8a71a9d",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738ff7c3580d429c8212b9a3b6",
+      "released": "2015-12-04T00:00:00Z",
+      "year": "2015",
+      "isExplicit": false
     },
     {
       "id": "7F8RNvTQlvbeBLeenycvN6",
       "title": "Kun Faya Kun",
-      "artist": "A.R. Rahman, Javed Ali, Mohit Chauhan",
+      "artist": "A.R. Rahman, Javed Ali, Mohit Chauhan",
       "durationMs": 470500,
       "url": "https://open.spotify.com/track/7F8RNvTQlvbeBLeenycvN6",
-      "preview": "https://p.scdn.co/mp3-preview/b360644d52e45bc64340b5e3e7885a67c9801631"
+      "preview": "https://p.scdn.co/mp3-preview/b360644d52e45bc64340b5e3e7885a67c9801631",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27354e544672baa16145d67612b",
+      "released": "2011-10-01T00:00:00Z",
+      "year": "2011",
+      "isExplicit": false
     },
     {
       "id": "43wLf5iwEFm65mp6K06kVy",
       "title": "Bawara Mann",
-      "artist": "Jubin Nautiyal, Neeti Mohan",
+      "artist": "Jubin Nautiyal, Neeti Mohan",
       "durationMs": 216073,
       "url": "https://open.spotify.com/track/43wLf5iwEFm65mp6K06kVy",
-      "preview": "https://p.scdn.co/mp3-preview/527014e13517426961c89b1ce8c87a530f36cd8d"
+      "preview": "https://p.scdn.co/mp3-preview/527014e13517426961c89b1ce8c87a530f36cd8d",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b7b65ee4487dec40a482b0d8",
+      "released": "2017-01-13T00:00:00Z",
+      "year": "2017",
+      "isExplicit": false
     },
     {
       "id": "2DxhfuyHsvTvY5uUdClqYu",
       "title": "Behti Hawa Sa Tha Woh",
-      "artist": "Shaan, Shantanu Moitra",
+      "artist": "Shaan, Shantanu Moitra",
       "durationMs": 299776,
       "url": "https://open.spotify.com/track/2DxhfuyHsvTvY5uUdClqYu",
-      "preview": "https://p.scdn.co/mp3-preview/a9d187c989ffa8a87305f6f4686afb99391003a6"
+      "preview": "https://p.scdn.co/mp3-preview/a9d187c989ffa8a87305f6f4686afb99391003a6",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273593dd16691c117c716e210ae",
+      "released": "2009-11-09T00:00:00Z",
+      "year": "2009",
+      "isExplicit": false
     },
     {
       "id": "2qgXrzJsry4KgYoJCpuaul",
@@ -509,7 +769,11 @@
       "artist": "The Local Train",
       "durationMs": 233630,
       "url": "https://open.spotify.com/track/2qgXrzJsry4KgYoJCpuaul",
-      "preview": "https://p.scdn.co/mp3-preview/c5d4e05e621bcdbd437dd7db50c5b318934b0851"
+      "preview": "https://p.scdn.co/mp3-preview/c5d4e05e621bcdbd437dd7db50c5b318934b0851",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738e001d2d4b55039b545d047e",
+      "released": "2015-09-25T00:00:00Z",
+      "year": "2015",
+      "isExplicit": false
     },
     {
       "id": "2KDR0VRWbQ88LQ1cdi8T3z",
@@ -517,7 +781,11 @@
       "artist": "The Local Train",
       "durationMs": 207530,
       "url": "https://open.spotify.com/track/2KDR0VRWbQ88LQ1cdi8T3z",
-      "preview": "https://p.scdn.co/mp3-preview/d079965b15bc6430f38aabc771c592012c8b7d30"
+      "preview": "https://p.scdn.co/mp3-preview/d079965b15bc6430f38aabc771c592012c8b7d30",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27373c6514b296e0b53dc7b75b3",
+      "released": "2018-01-29T00:00:00Z",
+      "year": "2018",
+      "isExplicit": false
     },
     {
       "id": "2sNMcxZh7AwImXtrv8UV3S",
@@ -525,7 +793,11 @@
       "artist": "The Local Train",
       "durationMs": 305335,
       "url": "https://open.spotify.com/track/2sNMcxZh7AwImXtrv8UV3S",
-      "preview": "https://p.scdn.co/mp3-preview/a3626836a7e404e94a519ae4dcc882798c93b655"
+      "preview": "https://p.scdn.co/mp3-preview/a3626836a7e404e94a519ae4dcc882798c93b655",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2738e001d2d4b55039b545d047e",
+      "released": "2015-09-25T00:00:00Z",
+      "year": "2015",
+      "isExplicit": false
     },
     {
       "id": "7EkWXAI1wn8Ii883ecd9xr",
@@ -533,15 +805,11 @@
       "artist": "Surf Curse",
       "durationMs": 147062,
       "url": "https://open.spotify.com/track/7EkWXAI1wn8Ii883ecd9xr",
-      "preview": "https://p.scdn.co/mp3-preview/bed4627e00d268e402f2f99133c10d42ebe7588a"
-    },
-    {
-      "id": "0NsYZt7iTFoLMw3pZTQEDQ",
-      "title": "Nindiya Re - Studio Version",
-      "artist": "Kaavish",
-      "durationMs": 225645,
-      "url": "https://open.spotify.com/track/0NsYZt7iTFoLMw3pZTQEDQ",
-      "preview": "https://p.scdn.co/mp3-preview/a8534f5b4d145acbc5ca1406f4d4ebf4bf92bd82"
+      "preview": "https://p.scdn.co/mp3-preview/bed4627e00d268e402f2f99133c10d42ebe7588a",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2733975b6b899eed4af577f7ba6",
+      "released": "2021-05-15T00:00:00Z",
+      "year": "2021",
+      "isExplicit": false
     },
     {
       "id": "1H7gMYGykdtwZOV6s1N0by",
@@ -549,15 +817,23 @@
       "artist": "The Beatles",
       "durationMs": 124693,
       "url": "https://open.spotify.com/track/1H7gMYGykdtwZOV6s1N0by",
-      "preview": "https://p.scdn.co/mp3-preview/9e661c0137192c04b7c5ef3f3cb35cca6dca1077"
+      "preview": "https://p.scdn.co/mp3-preview/9e661c0137192c04b7c5ef3f3cb35cca6dca1077",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273ed801e58a9ababdea6ac7ce4",
+      "released": "1965-12-03T00:00:00Z",
+      "year": "1965",
+      "isExplicit": false
     },
     {
       "id": "5FXMRdJjKq1BIX4e8Eg9mK",
       "title": "Ajab Si",
-      "artist": "KK, Vishal-Shekhar, Vishal Dadlani",
+      "artist": "KK, Vishal-Shekhar, Vishal Dadlani",
       "durationMs": 241668,
       "url": "https://open.spotify.com/track/5FXMRdJjKq1BIX4e8Eg9mK",
-      "preview": "https://p.scdn.co/mp3-preview/5d635389a6a18b2fd08666d548164ad1b287a7b2"
+      "preview": "https://p.scdn.co/mp3-preview/5d635389a6a18b2fd08666d548164ad1b287a7b2",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273675b3f7dea80153c73581e5e",
+      "released": "2007-09-18T00:00:00Z",
+      "year": "2007",
+      "isExplicit": false
     },
     {
       "id": "7hhIj9iJUK6lzSY3AeOcyl",
@@ -565,15 +841,11 @@
       "artist": "Dream Note",
       "durationMs": 245538,
       "url": "https://open.spotify.com/track/7hhIj9iJUK6lzSY3AeOcyl",
-      "preview": "https://p.scdn.co/mp3-preview/5f549d399444f610d902ff8c1833af6b146cf5f7"
-    },
-    {
-      "id": "1OkAxAQawPzy5hYfDzhoSv",
-      "title": "Tuntuna",
-      "artist": "Shamoon Ismail",
-      "durationMs": 266345,
-      "url": "https://open.spotify.com/track/1OkAxAQawPzy5hYfDzhoSv",
-      "preview": "https://p.scdn.co/mp3-preview/fcff1d85f7185af5dd4b2f870b2783e3b33e6773"
+      "preview": "https://p.scdn.co/mp3-preview/5f549d399444f610d902ff8c1833af6b146cf5f7",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27332b0a48a3412815f45022603",
+      "released": "2020-01-31T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "0GGQ7IsB3GsKLzM9If4J3H",
@@ -581,7 +853,11 @@
       "artist": "Vivek Hariharan",
       "durationMs": 171046,
       "url": "https://open.spotify.com/track/0GGQ7IsB3GsKLzM9If4J3H",
-      "preview": "https://p.scdn.co/mp3-preview/b286cb9dd56bd87183c5d9e2e92b622b94e77d20"
+      "preview": "https://p.scdn.co/mp3-preview/b286cb9dd56bd87183c5d9e2e92b622b94e77d20",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739b42db1916d0482153bf2753",
+      "released": "2017-02-21T00:00:00Z",
+      "year": "2017",
+      "isExplicit": false
     },
     {
       "id": "12LgqOLYPWxbbPNo66K0zY",
@@ -589,15 +865,23 @@
       "artist": "Bipul Chettri",
       "durationMs": 184000,
       "url": "https://open.spotify.com/track/12LgqOLYPWxbbPNo66K0zY",
-      "preview": "https://p.scdn.co/mp3-preview/f0b821e9b1c8111b8ec895c3daad30bf5b87289b"
+      "preview": "https://p.scdn.co/mp3-preview/f0b821e9b1c8111b8ec895c3daad30bf5b87289b",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2739cc8859fd4a7cb4dfd44b7d9",
+      "released": "2014-07-25T00:00:00Z",
+      "year": "2014",
+      "isExplicit": false
     },
     {
       "id": "0hQNLwyf8qtVBXJiFeTkD8",
       "title": "Chiraiyya",
-      "artist": "Swanand Kirkire, Ram Sampath",
+      "artist": "Swanand Kirkire, Ram Sampath",
       "durationMs": 253074,
       "url": "https://open.spotify.com/track/0hQNLwyf8qtVBXJiFeTkD8",
-      "preview": "https://p.scdn.co/mp3-preview/f49d6aa89d1789b9e48e6031d13cd31301e43d7c"
+      "preview": "https://p.scdn.co/mp3-preview/f49d6aa89d1789b9e48e6031d13cd31301e43d7c",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27324126b897856dc49f873473b",
+      "released": "2012-05-08T00:00:00Z",
+      "year": "2012",
+      "isExplicit": false
     },
     {
       "id": "0vaPHw608M1jHif7kO2TSc",
@@ -605,7 +889,11 @@
       "artist": "Aditya A",
       "durationMs": 103340,
       "url": "https://open.spotify.com/track/0vaPHw608M1jHif7kO2TSc",
-      "preview": "https://p.scdn.co/mp3-preview/f94adb4d193339ca817a41b662a821ab26161566"
+      "preview": "https://p.scdn.co/mp3-preview/f94adb4d193339ca817a41b662a821ab26161566",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734be3b1a83cd1a2edb28800fc",
+      "released": "2020-03-28T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "4zulC43zqvidJqaS5akV9Y",
@@ -613,7 +901,11 @@
       "artist": "Mohit Chauhan",
       "durationMs": 291080,
       "url": "https://open.spotify.com/track/4zulC43zqvidJqaS5akV9Y",
-      "preview": "https://p.scdn.co/mp3-preview/89ddbdb562e9b25057fe60580b1257c5aca0ac76"
+      "preview": "https://p.scdn.co/mp3-preview/89ddbdb562e9b25057fe60580b1257c5aca0ac76",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e1cc217267ac17d1af687caa",
+      "released": "2009-01-01T00:00:00Z",
+      "year": "2009",
+      "isExplicit": false
     },
     {
       "id": "0NLkVxf0PyxsXBG3EuZcJf",
@@ -621,7 +913,11 @@
       "artist": "Anuv Jain",
       "durationMs": 217241,
       "url": "https://open.spotify.com/track/0NLkVxf0PyxsXBG3EuZcJf",
-      "preview": "https://p.scdn.co/mp3-preview/4e29b85a536d490c6335ce6e77e9db8fd6a59de9"
+      "preview": "https://p.scdn.co/mp3-preview/4e29b85a536d490c6335ce6e77e9db8fd6a59de9",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b2734cdf85ea439ad82b1b0a69ea",
+      "released": "2021-07-16T00:00:00Z",
+      "year": "2021",
+      "isExplicit": false
     },
     {
       "id": "4ZZynv7OD3anxYgSoD53Xn",
@@ -629,7 +925,11 @@
       "artist": "Vivek Mahajan",
       "durationMs": 228000,
       "url": "https://open.spotify.com/track/4ZZynv7OD3anxYgSoD53Xn",
-      "preview": "https://p.scdn.co/mp3-preview/f88955bf045148578d4cfb041cedcd92b4e58af6"
+      "preview": "https://p.scdn.co/mp3-preview/f88955bf045148578d4cfb041cedcd92b4e58af6",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27394ddadd8edbfd3d5de5f8893",
+      "released": "2020-09-13T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "648GXyKI62FhbeBq0levWr",
@@ -637,7 +937,11 @@
       "artist": "Adnan Sami",
       "durationMs": 327880,
       "url": "https://open.spotify.com/track/648GXyKI62FhbeBq0levWr",
-      "preview": "https://p.scdn.co/mp3-preview/2bfda5d69523241b957775991acd5bbd29ffda71"
+      "preview": "https://p.scdn.co/mp3-preview/2bfda5d69523241b957775991acd5bbd29ffda71",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27380cb44e037bdc5dd5bcace15",
+      "released": "2007-07-12T00:00:00Z",
+      "year": "2007",
+      "isExplicit": false
     },
     {
       "id": "1gxmaTGnxEgZuV8485tevN",
@@ -645,31 +949,47 @@
       "artist": "Anuv Jain",
       "durationMs": 211578,
       "url": "https://open.spotify.com/track/1gxmaTGnxEgZuV8485tevN",
-      "preview": "https://p.scdn.co/mp3-preview/b93c554f54b3255f263ff9c4765311d5c6ce441a"
+      "preview": "https://p.scdn.co/mp3-preview/b93c554f54b3255f263ff9c4765311d5c6ce441a",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273500e41ab4ec4fe40f22a0b1b",
+      "released": "2021-11-19T00:00:00Z",
+      "year": "2021",
+      "isExplicit": false
     },
     {
       "id": "3F2BSn4ayglzMwquBRHZq6",
       "title": "Rangi Saari",
-      "artist": "Kavita Seth, Kanishk Seth",
+      "artist": "Kavita Seth, Kanishk Seth",
       "durationMs": 214000,
       "url": "https://open.spotify.com/track/3F2BSn4ayglzMwquBRHZq6",
-      "preview": "https://p.scdn.co/mp3-preview/7f0c430b94d07680e549dab0aaeee3869a39a6c6"
+      "preview": "https://p.scdn.co/mp3-preview/7f0c430b94d07680e549dab0aaeee3869a39a6c6",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b27368306b9b495f303159a892e3",
+      "released": "2020-04-24T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "0P4AQdNDgEdi7J8mpgY8Jx",
       "title": "Khoya",
-      "artist": "Zariya, Aseem",
+      "artist": "Zariya, Aseem",
       "durationMs": 178197,
       "url": "https://open.spotify.com/track/0P4AQdNDgEdi7J8mpgY8Jx",
-      "preview": "https://p.scdn.co/mp3-preview/3ff1fbc02981cd2fe6d0431bc01dc051c72c608c"
+      "preview": "https://p.scdn.co/mp3-preview/3ff1fbc02981cd2fe6d0431bc01dc051c72c608c",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273948a1c8e070f75a776012a3d",
+      "released": "2020-04-10T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "5UHvVfewZKxwoB6gdhSFtr",
       "title": "Monta Re",
-      "artist": "Swanand Kirkire, Amitabh Bhattacharya, Amit Trivedi",
+      "artist": "Swanand Kirkire, Amitabh Bhattacharya, Amit Trivedi",
       "durationMs": 237614,
       "url": "https://open.spotify.com/track/5UHvVfewZKxwoB6gdhSFtr",
-      "preview": "https://p.scdn.co/mp3-preview/dbd5b4bc196ef21f80d37ffdc677b75555d31ce6"
+      "preview": "https://p.scdn.co/mp3-preview/dbd5b4bc196ef21f80d37ffdc677b75555d31ce6",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730e26db222796cf4207425abc",
+      "released": "2013-05-29T00:00:00Z",
+      "year": "2013",
+      "isExplicit": false
     },
     {
       "id": "1Ud6dfU6rD5dkl5gB7r4bg",
@@ -677,7 +997,11 @@
       "artist": "Parvaaz",
       "durationMs": 400000,
       "url": "https://open.spotify.com/track/1Ud6dfU6rD5dkl5gB7r4bg",
-      "preview": "https://p.scdn.co/mp3-preview/1b8cbd51ce2ebbd446abd14e2cb99b11c59f1cb4"
+      "preview": "https://p.scdn.co/mp3-preview/1b8cbd51ce2ebbd446abd14e2cb99b11c59f1cb4",
+      "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730d5d8f07caebb5ef59bc4b6b",
+      "released": "2017-05-29T00:00:00Z",
+      "year": "2017",
+      "isExplicit": false
     },
     {
       "id": "61DAXhppnX8F0jgERm5Q4g",
@@ -685,15 +1009,23 @@
       "artist": "Deepak Rathore",
       "durationMs": 313170,
       "url": "https://open.spotify.com/track/61DAXhppnX8F0jgERm5Q4g",
-      "preview": "https://p.scdn.co/mp3-preview/c1959f7fde312e5ecfadf6de3143c3d3943b2750"
+      "preview": "https://p.scdn.co/mp3-preview/c1959f7fde312e5ecfadf6de3143c3d3943b2750",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273e2a81116e93dd301c4aae618",
+      "released": "2020-10-08T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     },
     {
       "id": "7pTYN6Gxy3MOibdXmkzc5V",
       "title": "Jhak Maar Ke",
-      "artist": "Pritam, Neeraj Shridhar, Harshdeep Kaur",
+      "artist": "Pritam, Neeraj Shridhar, Harshdeep Kaur",
       "durationMs": 233302,
       "url": "https://open.spotify.com/track/7pTYN6Gxy3MOibdXmkzc5V",
-      "preview": "https://p.scdn.co/mp3-preview/9f0f369d7db7680ebf5d54d03dd2a849f6777743"
+      "preview": "https://p.scdn.co/mp3-preview/9f0f369d7db7680ebf5d54d03dd2a849f6777743",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273daa89593cc2cde9651665d03",
+      "released": "2011-10-21T00:00:00Z",
+      "year": "2011",
+      "isExplicit": false
     },
     {
       "id": "3WBsWNtL054HCFz7UUGK9e",
@@ -701,15 +1033,11 @@
       "artist": "Umer Farooq",
       "durationMs": 232800,
       "url": "https://open.spotify.com/track/3WBsWNtL054HCFz7UUGK9e",
-      "preview": "https://p.scdn.co/mp3-preview/2e5186917e0d3c0bd3b2929e188517a47213b9f8"
-    },
-    {
-      "id": "0mAswKg3RCbmXAV4KYTUxM",
-      "title": "Aisay Kaisay",
-      "artist": "Hasan Raheem, Abdullah Kasumbi",
-      "durationMs": 198857,
-      "url": "https://open.spotify.com/track/0mAswKg3RCbmXAV4KYTUxM",
-      "preview": "https://p.scdn.co/mp3-preview/725f6d013969324ec7eeae32ca3b1adde8416413"
+      "preview": "https://p.scdn.co/mp3-preview/2e5186917e0d3c0bd3b2929e188517a47213b9f8",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b3969b352a6b38122086a6e7",
+      "released": "2018-04-13T00:00:00Z",
+      "year": "2018",
+      "isExplicit": false
     },
     {
       "id": "0GO8y8jQk1PkHzS31d699N",
@@ -717,7 +1045,11 @@
       "artist": "GROUPLOVE",
       "durationMs": 218013,
       "url": "https://open.spotify.com/track/0GO8y8jQk1PkHzS31d699N",
-      "preview": "https://p.scdn.co/mp3-preview/6082516f3c05520cc2cf8cecd17e4ce8667c459e"
+      "preview": "https://p.scdn.co/mp3-preview/6082516f3c05520cc2cf8cecd17e4ce8667c459e",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273d84a9bbcba91cb6a4a212b1b",
+      "released": "2011-09-02T00:00:00Z",
+      "year": "2011",
+      "isExplicit": false
     },
     {
       "id": "1h5bMRo0WZ6L6E2a9ndiQ1",
@@ -725,7 +1057,11 @@
       "artist": "Aryan Katoch",
       "durationMs": 218666,
       "url": "https://open.spotify.com/track/1h5bMRo0WZ6L6E2a9ndiQ1",
-      "preview": "https://p.scdn.co/mp3-preview/5d99b24e2108fa4af718201ffe983999b8e5ff4a"
+      "preview": "https://p.scdn.co/mp3-preview/5d99b24e2108fa4af718201ffe983999b8e5ff4a",
+      "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67616d0000b273b02cd865490f8d5addaca84c",
+      "released": "2020-11-24T00:00:00Z",
+      "year": "2020",
+      "isExplicit": false
     }
   ]
 }

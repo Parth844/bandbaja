@@ -18,17 +18,20 @@
      above shows through, so nothing ever looks broken. */
   background-image: url("/background.jpg");
   background-size: cover;
-  background-position: center;
+  /* Y > 50% pulls the artwork upward in frame. Tune this one number. */
+  background-position: center 78%;
   background-repeat: no-repeat;
 }
 
 .scrim {
   position: absolute;
   inset: 0;
+  /* Top stop carries the white header over a bright sky; bottom stop keeps
+     the glass pill separated from the artwork beneath it. */
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.38) 0%,
-    rgba(0, 0, 0, 0) 26%,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 24%,
     rgba(0, 0, 0, 0) 52%,
     rgba(0, 0, 0, 0.58) 100%
   );
@@ -108,29 +111,94 @@
 .pill {
   position: relative;
   display: flex;
+  /* Two stacked rows: now-playing on top, seek bar + times beneath. */
+  flex-direction: column;
+  gap: 9px;
+  width: min(460px, calc(100vw - 32px));
+  padding: 9px 12px 11px;
+  border-radius: 26px;
+  color: #f4f7f8;
+  /* ── Liquid Glass ──────────────────────────────────────────────────
+     Apple's material is a stack of optical effects, not one blur, so it
+     is built here in layers: the backdrop bends light (blur + saturate
+     + a slight brightness lift standing in for refraction), a hairline
+     rim reads as the glass edge, and inset highlights give the specular
+     top edge and a soft shadowed underside. Kept as one functional
+     layer floating above the content — no glass stacked on glass. */
+  background: rgba(255, 255, 255, 0.28);
+  -webkit-backdrop-filter: blur(32px) saturate(190%) brightness(1.08);
+  backdrop-filter: blur(32px) saturate(190%) brightness(1.08);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow:
+    /* cast shadow, separating the layer from the content beneath */
+    0 16px 50px rgba(0, 0, 0, 0.4),
+    0 2px 10px rgba(0, 0, 0, 0.18),
+    /* specular highlight along the top edge */
+    inset 0 1px 0.5px rgba(255, 255, 255, 0.85),
+    /* faint lensing at the lower rim, where glass gathers light */
+    inset 0 -1px 0.5px rgba(255, 255, 255, 0.28),
+    inset 0 -14px 22px -14px rgba(0, 0, 0, 0.12);
+}
+
+/* Sheen: a soft diagonal gleam across the top third of the glass. */
+.pill::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(
+    148deg,
+    rgba(255, 255, 255, 0.34) 0%,
+    rgba(255, 255, 255, 0.08) 26%,
+    rgba(255, 255, 255, 0) 46%
+  );
+}
+
+/* Top row: artwork, track text, transport buttons.
+   Both rows sit above the sheen pseudo-element. */
+.row {
+  position: relative;
+  z-index: 1;
+  display: flex;
   align-items: center;
   gap: 13px;
-  width: min(460px, calc(100vw - 32px));
-  padding: 9px 12px 12px;
-  border-radius: 26px;
-  color: #0b0e11;
-  background: rgba(255, 255, 255, 0.42);
-  -webkit-backdrop-filter: blur(32px) saturate(180%);
-  backdrop-filter: blur(32px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  box-shadow:
-    0 14px 48px rgba(0, 0, 0, 0.42),
-    inset 0 1px 0 rgba(255, 255, 255, 0.7);
 }
 
 .art {
   flex: 0 0 auto;
   width: 46px;
   height: 46px;
-  border-radius: 11px;
+  /* Concentric with the pill: 26px outer radius − 12px inset = 14px, so
+     the curves stay parallel the way Apple's nested shapes do. */
+  border-radius: 14px;
   object-fit: cover;
   background: #0d2a2c;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  animation: trackIn 420ms ease both;
+}
+
+/* Artwork and text dissolve in alongside the audio crossfade. */
+@keyframes trackIn {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes textIn {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .info {
@@ -139,6 +207,7 @@
   gap: 1px;
   min-width: 0; /* enables truncation */
   flex: 1 1 auto;
+  animation: textIn 420ms ease both;
 }
 
 .title {
@@ -152,10 +221,29 @@
 
 .artist {
   font-size: 0.8rem;
-  color: rgba(11, 14, 17, 0.64);
+  color: rgba(255, 255, 255, 0.74);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* Release year, trailing the artist line behind a dot separator. */
+.year::before {
+  content: " · ";
+}
+
+/* Spotify-style explicit badge. */
+.explicit {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 3px;
+  border-radius: 2px;
+  font-size: 0.58rem;
+  font-weight: 700;
+  line-height: 1.35;
+  vertical-align: 1px;
+  color: rgba(11, 14, 17, 0.92);
+  background: rgba(255, 255, 255, 0.72);
 }
 
 .buttons {
@@ -173,18 +261,18 @@
   border: none;
   border-radius: 50%;
   background: transparent;
-  color: #0b0e11;
+  color: #f4f7f8;
   cursor: pointer;
   transition: background 0.15s ease, transform 0.05s ease;
 }
 .btn:hover {
-  background: rgba(0, 0, 0, 0.07);
+  background: rgba(255, 255, 255, 0.14);
 }
 .btn:active {
   transform: scale(0.92);
 }
 .btn:focus-visible {
-  outline: 2px solid rgba(11, 14, 17, 0.5);
+  outline: 2px solid rgba(255, 255, 255, 0.6);
   outline-offset: 2px;
 }
 .play {
@@ -193,48 +281,102 @@
 }
 
 /* Slim seek bar hugging the bottom edge of the pill. */
+/* Bottom row: elapsed · draggable bar · total. */
+.bar {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 4px;
+}
+
+.clock {
+  flex: 0 0 auto;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.68);
+  min-width: 30px;
+}
+
+.clock:last-child {
+  text-align: right;
+}
+
 .seek {
   -webkit-appearance: none;
   appearance: none;
-  position: absolute;
-  left: 16px;
-  right: 16px;
-  bottom: 5px;
-  width: auto;
-  height: 3px;
+  flex: 1 1 auto;
+  min-width: 0;
+  /* The grab area stays tall and easy to hit; only the painted track is
+     hairline-thin. Content box = 14px − 12px padding = a 2px line. */
+  height: 14px;
+  padding: 6px 0;
   border-radius: 2px;
   cursor: pointer;
-  background: linear-gradient(
+  touch-action: none;
+  /* background-image, not the `background` shorthand — the shorthand would
+     reset background-clip and paint the gradient across all 14px. */
+  background-image: linear-gradient(
     to right,
-    rgba(11, 14, 17, 0.75) 0%,
-    rgba(11, 14, 17, 0.75) var(--progress, 0%),
-    rgba(11, 14, 17, 0.18) var(--progress, 0%),
-    rgba(11, 14, 17, 0.18) 100%
+    rgba(255, 255, 255, 0.92) 0%,
+    rgba(255, 255, 255, 0.92) var(--progress, 0%),
+    rgba(255, 255, 255, 0.3) var(--progress, 0%),
+    rgba(255, 255, 255, 0.3) 100%
   );
+  background-clip: content-box;
 }
+/* The playhead is always visible, and grows a little when grabbed. */
 .seek::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #0b0e11;
-  opacity: 0;
-  transition: opacity 0.15s ease;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+  transition: transform 0.15s ease;
 }
-.seek:hover::-webkit-slider-thumb {
-  opacity: 1;
+.seek:hover::-webkit-slider-thumb,
+.seek:focus-visible::-webkit-slider-thumb,
+.seek:active::-webkit-slider-thumb {
+  transform: scale(1.25);
 }
 .seek::-moz-range-thumb {
   width: 10px;
   height: 10px;
   border: none;
   border-radius: 50%;
-  background: #0b0e11;
-  opacity: 0;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.45);
+  transition: transform 0.15s ease;
 }
-.seek:hover::-moz-range-thumb {
-  opacity: 1;
+.seek:hover::-moz-range-thumb,
+.seek:focus-visible::-moz-range-thumb,
+.seek:active::-moz-range-thumb {
+  transform: scale(1.25);
+}
+
+/* Full-song mode notice / connect button, under the pill. */
+.connect {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.34);
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 999px;
+  padding: 5px 12px;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.connect:hover {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.6);
 }
 
 /* ── Hint line under the pill ──────────────────────────────────────── */
@@ -263,10 +405,52 @@
   }
 }
 
+/* Apple's guidance: translucency must yield to accessibility settings.
+   Drop the blur and the sheen, and go opaque enough to read anywhere. */
+@media (prefers-reduced-transparency: reduce) {
+  .pill {
+    /* Opaque and dark, so the light text keeps its contrast. */
+    background: rgba(16, 22, 26, 0.96);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+  .pill::after {
+    display: none;
+  }
+}
+
+/* Increased-contrast variant: firmer edge, denser field, darker text. */
+@media (prefers-contrast: more) {
+  .pill {
+    background: rgba(10, 14, 17, 0.94);
+    border-color: rgba(255, 255, 255, 0.75);
+  }
+  .pill::after {
+    display: none;
+  }
+  .artist,
+  .clock {
+    color: rgba(255, 255, 255, 0.95);
+  }
+}
+
+/* Glass needs a real backdrop to bend; without support, use a solid field
+   so the pill never reads as a washed-out translucent block. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .pill {
+    background: rgba(16, 22, 26, 0.9);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .btn,
   .spotify,
   .seek::-webkit-slider-thumb {
     transition: none;
+  }
+  /* Keep the audio crossfade, drop the visual movement. */
+  .art,
+  .info {
+    animation: none;
   }
 }
