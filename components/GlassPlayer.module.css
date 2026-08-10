@@ -18,8 +18,14 @@
      above shows through, so nothing ever looks broken. */
   background-image: url("/background.jpg");
   background-size: cover;
-  /* Y > 50% pulls the artwork upward in frame. Tune this one number. */
-  background-position: center 78%;
+  /* X > 50% shifts the artwork left in frame (revealing more of its right
+     side); Y > 50% pulls it upward. 100% is as far left as `cover` alone
+     can pan — the image only overhangs the viewport by ~160px. */
+  background-position: 100% 78%;
+  /* Scaling the layer buys extra slack so the pan can continue past what
+     `cover` allows. The translate must stay inside (scale − 1) / 2 of the
+     width, or an edge would pull away from the viewport. */
+  transform: scale(1.14) translateX(-5%);
   background-repeat: no-repeat;
 }
 
